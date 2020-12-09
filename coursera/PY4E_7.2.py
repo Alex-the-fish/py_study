@@ -9,5 +9,6 @@ for line in fh:
     line = line.rstrip()
     num = float(line[pos+1:])+ num
     count+=1
-    a = num/count
+
+a = num/count
 print("Average spam confidence:", a)
